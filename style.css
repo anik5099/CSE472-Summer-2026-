@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Main quiz box */
+
+.quiz-container {
+    width: 500px;
+    max-width: 90%;
+
+    margin: 80px auto;
+
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Heading */
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* Question number */
+
+#question-number {
+    color: #666;
+    font-size: 14px;
+}
+
+
+/* Question */
+
+#question {
+    margin-bottom: 25px;
+}
+
+
+/* Answer buttons */
+
+.answer-btn {
+    display: block;
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin: 10px 0;
+
+    border: 1px solid #ccc;
+
+    background-color: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    text-align: left;
+}
+
+
+/* Hover effect */
+
+.answer-btn:hover {
+    background-color: #f0f0f0;
+}
+
+
+/* Correct answer */
+
+.answer-btn.correct {
+    background-color: lightgreen;
+
+    border-color: green;
+}
+
+
+/* Wrong answer */
+
+.answer-btn.wrong {
+    background-color: lightcoral;
+
+    border-color: red;
+}
+
+
+/* Feedback */
+
+#feedback {
+    font-size: 18px;
+
+    font-weight: bold;
+
+    min-height: 25px;
+}
+
+
+/* Next and Restart buttons */
+
+#next-btn,
+#restart-btn {
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+
+/* Restart button initially hidden */
+
+#restart-btn {
+    display: none;
+}
+
+
+/* Score */
+
+#score {
+    text-align: right;
+
+    font-weight: bold;
+
+    margin-top: 20px;
+}
